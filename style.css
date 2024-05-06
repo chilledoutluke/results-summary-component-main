@@ -46,9 +46,10 @@ body {
 
 }
 
-.title .info {
-    padding: 1em;
+.title{
+    padding-bottom: 1em;
     color: hsla(221, 100%, 96%, 0.8);
+    font-size: large;
 }
 
 .circle {
@@ -60,6 +61,10 @@ body {
     border-radius: 50%;
     height: 10em;
     
+}
+
+.circle h1 {
+    font-size: 3.5em;
 }
 
 .info {
