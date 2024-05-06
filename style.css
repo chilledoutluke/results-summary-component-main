@@ -26,3 +26,42 @@ html {
     font-size: 18px;
 }
 
+body {
+    padding: 1em;
+    font-family: "Hanken Grotesk", sans-serif;
+    text-align: center;
+    display: flex;
+
+    justify-content: center;
+    min-width: 20,83em;
+    max-width: 80em;
+}
+
+.left {
+    background-image: linear-gradient(var(--light-slateblue),var(--light-royalblue));
+    padding: 2em;
+    border-radius: 1em;
+    width: 15em;
+    color: hsl(221, 100%, 96%);
+
+}
+
+.title .info {
+    padding: 1em;
+    color: hsla(221, 100%, 96%, 0.8);
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(var(--violet-blue), var(--persian-blue));
+    border-radius: 50%;
+    height: 10em;
+    
+}
+
+.info {
+    color: hsla(221, 100%, 96%, 0.8);
+}
