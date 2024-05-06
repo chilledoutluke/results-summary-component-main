@@ -1,0 +1,13 @@
+:root {
+    /* Primary */
+    --light-red: hsl(0, 100%, 67%);
+    --orangey-yellow: hslhsl(0, 100%, 67%);
+    --green-teal: hsl(166, 100%, 37%);
+    --cobalt-blue: hsl(234, 85%, 45%);
+
+    /* Gradients background */
+    --light-slateblue: hsl(252, 100%, 67%);
+    --light-royalblue: hsl(241, 81%, 54%);
+
+
+}
