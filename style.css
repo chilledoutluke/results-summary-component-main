@@ -31,11 +31,17 @@ body {
     font-family: "Hanken Grotesk", sans-serif;
     text-align: center;
     display: flex;
-
-    justify-content: center;
     min-width: 20,83em;
     max-width: 80em;
+    background-color: white;
 }
+
+main {
+    display: flex;
+
+}
+
+/* Your Result(Left Side) */
 
 .left {
     background-image: linear-gradient(var(--light-slateblue),var(--light-royalblue));
@@ -49,7 +55,7 @@ body {
 .title{
     padding-bottom: 1em;
     color: hsla(221, 100%, 96%, 0.8);
-    font-size: large;
+    font-size: 1em;
 }
 
 .circle {
@@ -69,4 +75,38 @@ body {
 
 .info {
     color: hsla(221, 100%, 96%, 0.8);
+    font-size: small;
+}
+
+/* Summary(Right side) */
+
+.right {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+
+}
+
+.title2 {
+
+
+}
+
+.highlight {
+    display: flex;
+    border: 1px solid black;
+    margin: 0.25em;
+    padding: 5px;
+    
+}
+
+.L {
+    
+}
+
+.R {
+    
 }
