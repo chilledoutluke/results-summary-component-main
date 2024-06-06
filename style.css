@@ -46,6 +46,21 @@ main {
 
 }
 
+@media only screen and (max-width: 600px) {
+    main, 
+    .left,
+    .right
+     {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+       
+    }
+  }
+
+
 /* Your Result(Left Side) */
 
 .left {
@@ -58,6 +73,7 @@ main {
     z-index: 2;
 
 }
+
 
 .title{
     padding-bottom: 1em;
