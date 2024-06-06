@@ -1,7 +1,7 @@
 :root {
     /* Primary */
     --light-red: hsla(0, 100%, 67%, 0.1);
-    --orangey-yellow: hsla(0, 100%, 67%, 0.1);
+    --orangey-yellow: hsla(56, 100%, 67%, 0.1);
     --green-teal: hsla(166, 100%, 37%, 0.1);
     --cobalt-blue: hsla(234, 85%, 45%, 0.1);
 
@@ -31,6 +31,8 @@ body {
     font-family: "Hanken Grotesk", sans-serif;
     text-align: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
     min-width: 20,83em;
     max-width: 80em;
     background-color: white;
@@ -105,18 +107,72 @@ padding-bottom: 1em;
 
 }
 
+
 .red,
 .yellow,
 .green,
 .blue {
     display: flex;
-    border: 1px solid black;
+    border: 1px;
     border-radius: .3125em;
     margin: 0.25em;
     padding: .3125em;
+    font-size: medium;
 }
 
 .red {
     background-color: var(--light-red);
     
+}
+
+.red .L {
+    color: hsl(0, 100%, 67%);
+}
+
+.yellow {
+    background-color: var(--orangey-yellow);
+}
+
+.yellow .L {
+   color: hsla(56, 100%, 67%);
+}
+
+.green {
+    background-color: var(--green-teal);
+}
+
+.green .L {
+    color: hsla(166, 100%, 37%);
+}
+
+.blue {
+    background-color: var(--cobalt-blue);
+}
+
+.blue .L {
+    color: hsl(234, 85%, 45%);
+}
+
+img {
+    padding-right: 1.1em;
+}
+
+.L {
+    padding-right: 0.5em;
+}
+
+/* button */
+
+button {
+    background-color: var(--dark-grayblue);
+    color: white;
+    font-size: small;
+    margin-top: 2.5em;
+    border-radius: 2em;
+    padding: .5em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-image: linear-gradient(var(--light-slateblue),var(--light-royalblue));
 }
