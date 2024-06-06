@@ -1,9 +1,9 @@
 :root {
     /* Primary */
-    --light-red: hsl(0, 100%, 67%);
-    --orangey-yellow: hslhsl(0, 100%, 67%);
-    --green-teal: hsl(166, 100%, 37%);
-    --cobalt-blue: hsl(234, 85%, 45%);
+    --light-red: hsla(0, 100%, 67%, 0.1);
+    --orangey-yellow: hsla(0, 100%, 67%, 0.1);
+    --green-teal: hsla(166, 100%, 37%, 0.1);
+    --cobalt-blue: hsla(234, 85%, 45%, 0.1);
 
     /* Gradients background */
     --light-slateblue: hsl(252, 100%, 67%);
@@ -38,6 +38,9 @@ body {
 
 main {
     display: flex;
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: 9px 18px 24px -1px hsl(221, 100%, 96%);
 
 }
 
@@ -49,6 +52,8 @@ main {
     border-radius: 1em;
     width: 15em;
     color: hsl(221, 100%, 96%);
+    position: relative;
+    z-index: 2;
 
 }
 
@@ -82,31 +87,36 @@ main {
 
 .right {
     background-color: var(--white);
+    border-radius: 1em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 2em;
+    position: relative;
+    z-index: 1;
+
 
 }
 
 .title2 {
-
+display: flex;
+padding-left: .5em;
+font-weight: 500;
+padding-bottom: 1em;
 
 }
 
-.highlight {
+.red,
+.yellow,
+.green,
+.blue {
     display: flex;
     border: 1px solid black;
+    border-radius: .3125em;
     margin: 0.25em;
-    padding: 5px;
-    
+    padding: .3125em;
 }
 
-.L {
-    
-}
-
-.R {
+.red {
+    background-color: var(--light-red);
     
 }
