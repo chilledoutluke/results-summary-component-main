@@ -46,17 +46,6 @@ main {
 
 }
 
-@media only screen and (max-width: 600px) {
-    main, 
-    .left,
-    .right
-     {
-        display: flex;
-        flex-direction: column;
-    }
-
-  }
-
 
 /* Your Result(Left Side) */
 
@@ -120,6 +109,11 @@ padding-bottom: 1em;
 
 }
 
+
+
+.first {
+    font-weight: bold
+}
 
 .red,
 .yellow,
@@ -189,3 +183,18 @@ button {
 button:hover {
     background-image: linear-gradient(var(--light-slateblue),var(--light-royalblue));
 }
+
+@media only screen and (max-width: 600px) {
+    main, 
+    .left,
+    .right
+     {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+       border-top-left-radius: 0; 
+       border-top-right-radius: 0;
+    }
+  }
