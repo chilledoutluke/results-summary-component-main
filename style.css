@@ -36,6 +36,7 @@ body {
     min-width: 20,83em;
     max-width: 80em;
     background-color: white;
+    padding-top: 8em;
 }
 
 main {
@@ -43,6 +44,7 @@ main {
     background-color: white;
     border-radius: 1em;
     box-shadow: 9px 18px 24px -1px hsl(221, 100%, 96%);
+    align-items: center;
 
 }
 
