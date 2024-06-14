@@ -115,6 +115,11 @@ padding-bottom: 1em;
     font-weight: bold
 }
 
+.second {
+    color: gray;
+}
+
+
 .red,
 .yellow,
 .green,
